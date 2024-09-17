@@ -23,14 +23,16 @@ html{
     margin-bottom: 50px;
 }
 
+/*main*/
+
 .container-main{
    background-color: white;
-   max-width: 500px;
    margin: 0 auto;
    padding-top: 20px;
    padding-bottom: 20px;
    padding-left: 30px;
    max-width: 700px;
+   margin-bottom: 5px;
 }
 
 .text-add{
@@ -53,5 +55,32 @@ html{
     border-color: rgb(221, 221, 221);
     padding: 8px;
     border-radius: 10px;
+    margin-left: 5px;
+}
+
+.container-list{
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 30px;
+    max-width: 700px;
+    padding-top: 20px;
+}
+
+ul{
+    padding-left: 30px;
+    list-style: none;
+}
+
+strong{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.text-span{
+    background-color: rgb(73, 182, 255);
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 10px;
     margin-left: 5px;
 }
